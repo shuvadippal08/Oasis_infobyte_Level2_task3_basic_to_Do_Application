@@ -1,0 +1,151 @@
+body{
+  background-color: #845ec2;
+  color: white;
+  overflow: hidden;
+}
+h1{
+  text-align: center;
+}
+
+.todo-wrapper{
+  background-color: #008f7a;
+  padding: 2%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 8px rgba(27, 28, 29, alpha);
+}
+.todo-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(47, 47, 47);
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.todo-input-item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+}
+.todo-input-item label{
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.todo-input-item input{
+  padding: 8px;
+  border: none;
+  width: 250px;
+}
+.todo-input-item input:focus{
+  outline: none;
+  border: 2px solid cyan;
+}
+.primaryBtn{
+background-color: #0081cf;
+color: black;
+border: none ;
+border-radius: 0%;
+margin-top: 25px;
+padding: 8px;
+width: 90px;
+
+text-align: center;
+align-items: center;
+}
+
+.primaryBtn:hover{
+  cursor:pointer;
+  background-color: aquamarine;
+}
+.secondaryBtn{
+background-color: #1f1e1e;
+color: white;
+border: none ;
+border-radius: 0%;
+margin-top: 25px;
+padding: 12px;
+width: fit-content;
+text-align: center;
+align-items: center;
+}
+
+.active{
+  background-color: greenyellow;
+  color: black;
+}
+.button-area{
+  margin-bottom: 10px;
+}
+
+.todo-list-item{
+  background-color: rgb(16, 13, 13);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 5px rgb(190, 127, 127);
+}
+
+.todo-list-item h3{
+  font-size: 25px;
+  color: rgb(0,230,122);
+  font-weight: bold;
+  margin: 2px;
+}
+
+.todo-list-item p{
+  font-size: 12px;
+  color: rgb(161,161,161);
+  margin-top: 8px;
+}
+
+.del-icon{
+  font-size: 35px;
+  cursor: pointer;
+}
+.del-icon:hover{
+  color: red;
+}
+
+.check-icon{
+  font-size: 25px;
+  margin-left: 10px;
+  color: rgb(0,230,122);
+  cursor: pointer;
+}
+.check-icon:hover{
+  color: aquamarine;
+}
+
+.edit__wrapper{
+  background-color:rgb(171, 114, 114) ;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.edit__wrapper input, .edit__wrapper textarea{
+  border: 2px solid blanchedalmond;
+  padding:8px;
+  margin: 5px;
+  border-radius: 3px;
+}
+.edit__wrapper button{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0081cf;
+  padding: 10px;
+  font-size: 15px;
+  width: fit-content;
+}
+.edit__wrapper button:hover{
+  cursor:pointer;
+  background-color: aquamarine;
+}
